@@ -1,1 +1,13 @@
-theme: jekyll-theme-cayman
+url: http://kirbyt.github.io
+baseurl: /timeline-jekyll-theme
+
+# Site Settings
+title: UniFind
+keywords: "jekyll, theme"
+google-tracking-id:
+
+# Career Settings
+# Default career thumbnail image.
+career-img: "img/timeline/default.jpg"
+
+exclude: ["Rakefile", "LICENSE", "readme.markdown"]
