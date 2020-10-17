@@ -1,37 +1,67 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/DianaVlad/UniFind/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/DianaVlad/UniFind/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+.container
+  h1.title Our Milestones
+  .timeline
+    .timeline-nav
+      .timeline-nav__item 1985
+      .timeline-nav__item 1988
+      .timeline-nav__item 1998
+      .timeline-nav__item 2006
+      .timeline-nav__item 2008
+      .timeline-nav__item 2010
+      .timeline-nav__item 2012
+      .timeline-nav__item 2013
+      .timeline-nav__item 2015
+      .timeline-nav__item 2016
+    
+    .timeline-wrapper
+      .timeline-slider
+          .timeline-slide(style=`background-image: url(https://unsplash.it/1920/600?image=11`, data-year=`1985`)       
+            span.timeline-year 1985
+            .timeline-slide__content
+              h4.timeline-title Our first project
+              p.timeline-text First project for the leading film actress Jamuna Barua, wife of Pramathesh Barua the legendary actor, director, and screenwriter
+          .timeline-slide(style=`background-image: url(https://unsplash.it/1920/600?image=12`, data-year=`1988`)       
+            span.timeline-year 1988
+            .timeline-slide__content
+              h4.timeline-title Our first project
+              p.timeline-text First project for the leading film actress Jamuna Barua, wife of Pramathesh Barua the legendary actor, director, and screenwriter
+          .timeline-slide(style=`background-image: url(https://unsplash.it/1920/600?image=13`, data-year=`1998`)       
+            span.timeline-year 1998
+            .timeline-slide__content
+              h4.timeline-title Our nice super title
+              p.timeline-text Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          .timeline-slide(style=`background-image: url(https://unsplash.it/1920/600?image=13`, data-year=`2006`)       
+            span.timeline-year 2006
+            .timeline-slide__content
+              h4.timeline-title Our nice super title
+              p.timeline-text Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          .timeline-slide(style=`background-image: url(https://unsplash.it/1920/600?image=13`, data-year=`2008`)       
+            span.timeline-year 2008
+            .timeline-slide__content
+              h4.timeline-title Our nice super title
+              p.timeline-text Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          .timeline-slide(style=`background-image: url(https://unsplash.it/1920/600?image=13`, data-year=`2010`)       
+            span.timeline-year 2010
+            .timeline-slide__content
+              h4.timeline-title Our nice super title
+              p.timeline-text Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          .timeline-slide(style=`background-image: url(https://unsplash.it/1920/600?image=13`, data-year=`2012`)       
+            span.timeline-year 2012
+            .timeline-slide__content
+              h4.timeline-title Our nice super title
+              p.timeline-text Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          .timeline-slide(style=`background-image: url(https://unsplash.it/1920/600?image=13`, data-year=`2013`)       
+            span.timeline-year 2013
+            .timeline-slide__content
+              h4.timeline-title Our nice super title
+              p.timeline-text Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          .timeline-slide(style=`background-image: url(https://unsplash.it/1920/600?image=13`, data-year=`2015`)       
+            span.timeline-year 2015
+            .timeline-slide__content
+              h4.timeline-title Our nice super title
+              p.timeline-text Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          .timeline-slide(style=`background-image: url(https://unsplash.it/1920/600?image=13`, data-year=`2016`)       
+            span.timeline-year 2016
+            .timeline-slide__content
+              h4.timeline-title Our nice super title
+              p.timeline-text Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
